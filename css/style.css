@@ -4,9 +4,11 @@
 }
 /* COMMON */
 img{
-    width: 100%;
+    width: 80%;
 }
-
+#avatar{
+    width: 50%;
+}
 nav{
     background-color: #2C3E50;
 }
@@ -17,19 +19,20 @@ nav{
 
 #banner{
     background-color: #1ABC9C;
-
+    color: white;
     /* DEBUG */
     min-height: 300px;
     border: 1px solid black;
 }
+#main-card{
+    color: black;
+}
 .card-img{
     border-radius: 15px;
-    /* DEBUG */
-    background-color: lawngreen;
 }
-
 #about{
     background-color: #1ABC9C;
+    color: white;
 }
 
 #footer{
