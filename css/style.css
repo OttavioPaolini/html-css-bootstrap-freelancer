@@ -10,3 +10,11 @@ nav{
 #header-nav{
     color: white;
 }
+
+#banner{
+    background-color: #1ABC9C;
+
+    /* DEBUG */
+    min-height: 300px;
+    border: 1px solid black;
+}
