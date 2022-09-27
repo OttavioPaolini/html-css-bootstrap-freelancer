@@ -1,3 +1,7 @@
+/* DEBUG */
+.box{
+    border: 1px solid black;
+}
 /* COMMON */
 img{
     width: 100%;
@@ -17,4 +21,20 @@ nav{
     /* DEBUG */
     min-height: 300px;
     border: 1px solid black;
+}
+.card-img{
+    border-radius: 15px;
+    /* DEBUG */
+    background-color: lawngreen;
+}
+
+#about{
+    background-color: #1ABC9C;
+}
+
+#footer{
+    background-color: #3A546D;
+}
+#copyright{
+    background-color: #2C3E50;
 }
