@@ -1,7 +1,4 @@
 /* DEBUG */
-.box{
-    border: 1px solid black;
-}
 /* COMMON */
 img{
     width: 80%;
@@ -15,14 +12,16 @@ nav{
 .ms_star::before{
     content: "";
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid;
+    border-color: inherit;
     width: 100px;
     
 }
 .ms_star::after{
     content: "";
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid;
+    border-color: inherit;
     width: 100px;
     
 }
@@ -33,9 +32,7 @@ nav{
 #banner{
     background-color: #1ABC9C;
     color: white;
-    /* DEBUG */
-    min-height: 300px;
-    border: 1px solid black;
+    margin-bottom: 3rem;
 }
 #main-card{
     color: black;
