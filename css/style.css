@@ -41,3 +41,13 @@ nav{
 #copyright{
     background-color: #2C3E50;
 }
+
+/* NAV */
+.ms_menu-list li{
+    padding-left: 1rem;
+    list-style-type: none;
+}
+.ms_menu-list a{
+    text-decoration: none;
+    color: inherit;
+}
