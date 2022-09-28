@@ -7,12 +7,25 @@ img{
     width: 80%;
 }
 #avatar{
-    width: 50%;
+    width: 40%;
 }
 nav{
     background-color: #2C3E50;
 }
-
+.ms_star::before{
+    content: "";
+    display: inline-block;
+    border: 2px solid white;
+    width: 100px;
+    
+}
+.ms_star::after{
+    content: "";
+    display: inline-block;
+    border: 2px solid white;
+    width: 100px;
+    
+}
 #header-nav{
     color: white;
 }
